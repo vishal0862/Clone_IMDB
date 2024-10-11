@@ -12,9 +12,8 @@
   const genre = document.getElementById("genre");
 
   fetchMovies(title.innerHTML);
-
   async function fetchMovies(search) {
-    const url = `https://www.omdbapi.com/?t=${search}&type=movie&apikey=d19cd846`;
+    const url = `https://www.omdbapi.com/?t=${search}&type=movie&apikey=35a39591`;
     try {
       const response = await fetch(url);
       const data = await response.json();

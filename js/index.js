@@ -47,7 +47,7 @@
 
   // Fetches data from api and calls function to add it in
   async function fetchMovies(search) {
-    const url = `https://www.omdbapi.com/?t=${search}&apikey=d19cd846`;
+    const url = `https://www.omdbapi.com/?t=${search}&apikey=35a39591`;
     try {
       const response = await fetch(url);
       const data = await response.json();
